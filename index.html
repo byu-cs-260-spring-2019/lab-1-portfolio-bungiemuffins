@@ -4,41 +4,44 @@
         <title>My Portfolio</title>
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-        <link href="script.js">
+        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <ul id="list">
+            <li><img src="pictures/logo-1.png" alt="logo" height="42px"></li>
             <li><a href="index.html" alt="home">Home</a></li>
             <li><a href="links/proj-1.html" alt="project1">Project A</a></li>
             <li><a href="links/proj-2.html" alt="project2">Project B</a></li>
             <li><a href="links/proj-3.html" alt="project3">Project C</a></li>
+            <li><button id="button" onclick="clickedButton()">Darken Color</button></li>
         </ul>
         
-        <h1>Keaton Kimball</h1>
+        <header id="mainHeader">Keaton Kimball</header>
         <div class="container-1">
             <div class="box">
                 <header>About Me</header>
                 <p>I am a sophomore in the Computer Science major at Brigham Young University with 
                     interests in application and web development. I am looking to develop and learn 
-                    the necessary skills to be proficient at web developement in order to begin gaining
-                    experience in the workplace as an intern or part-time employee.
+                    the necessary skills to be proficient at web developement.
                 </p>
             </div>
 
             <div class="box">
                 <header>Work Experience</header>
                 <ul>
-                    <li>Undergraduate Researcher at Idea Labs</li>
-                    <li>Project Administrator</li>
+                    <li id="difList">Undergraduate Researcher at Idea Labs</li>
+                    <li id="difList">Project Administrator</li>
+                    <li id="difList">Construction Worker</li>
+                    <li id="difList">Wafflesmith</li>
                 </ul>
             </div>
 
             <div class="box">
                 <header>Learn More</header>
                 <ol>
-                    <li><a href="https://github.com/bungiemuffins">Github</a></li>
-                    <li><a href="https://idealabs.byu.edu/">Idea Labs</a></li>
-                    <li><a href="https://www.facebook.com/keaton.kimball.75">Facebook</a></li>
+                    <li id="difList"><a href="https://github.com/bungiemuffins">Github</a></li>
+                    <li id="difList"><a href="https://idealabs.byu.edu/">Idea Labs</a></li>
+                    <li id="difList"><a href="https://www.facebook.com/keaton.kimball.75">Facebook</a></li>
                 </ol>
             </div>
 

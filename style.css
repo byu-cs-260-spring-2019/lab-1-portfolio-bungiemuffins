@@ -5,7 +5,7 @@ body{
     margin: 0;
 }
 
-ul {
+#list{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,13 +27,31 @@ li a {
     text-decoration: none;
 }
 
-h1 {
+li button{
+    display: block;
     font-family: 'Quicksand', sans-serif;
     font-variant: all-petite-caps;
-    font-size: 90px;
+    color: black;
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    padding: 14px 16px;
+}
+
+ul {
+    font-family: 'Quicksand', sans-serif;
+    font-variant: all-petite-caps;
+}
+
+ol {
+    display: table-caption;
+}
+
+#mainHeader{
+    font-family: 'Quicksand', sans-serif;
+    font-variant: all-petite-caps;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .container-1{
@@ -43,20 +61,31 @@ h1 {
 }
 
 .box{
-    border: 3px rgba(83, 74, 55, 0.007) solid;
+    border: 0;
     padding: 10px;
-    width: 20%;
+    width: 25%;
 }
 
 header{
     font-family: 'Quicksand', sans-serif;
     font-variant: all-petite-caps;
-    font-size: 50px;
-
+    font-size: 3em;
 }
 
 p{
     font-family: 'Quicksand', sans-serif;
     font-variant: all-petite-caps;
-    font-size: 30px;
+    font-size: 2em;
 }
+
+#difList{
+    font-family: 'Quicksand', sans-serif;
+    font-variant: all-petite-caps;
+    font-size: 2em;
+    float: none;
+}
+
+ol li{
+    text-decoration: underline;
+}
+
